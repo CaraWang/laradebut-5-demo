@@ -6,4 +6,5 @@
 	* `$attributes`
 	* `$casts`
 	* `$appends`
+	* `CREATED_AT` & `UPDATED_AT`
 
