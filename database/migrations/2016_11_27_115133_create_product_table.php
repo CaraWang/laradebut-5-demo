@@ -20,7 +20,8 @@ class CreateProductTable extends Migration
             $table->string('type')->default('')->comments('商品型號');
             $table->float('price')->comments('商品的價格');
             $table->float('discount')->default('1')->comments('折扣率');
-            $table->timestamps();
+            $table->timestamp('createdAt')->nullable();
+            $table->timestamp('updatedAt')->nullable();
         });
     }
 
